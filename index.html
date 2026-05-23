@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Leo Misna Hermawan</title>
+    <meta
+      name="description"
+      content="Portofolio Leo Misna Hermawan — Developer & Designer."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-bracket">[</span>YN<span class="logo-bracket"
+            >]</span
+          >
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#about" class="nav-link">Tentang</a>
+          <a href="#skills" class="nav-link">Keahlian</a>
+          <a href="#projects" class="nav-link">Proyek</a>
+          <a href="#contact" class="nav-link">Kontak</a>
+        </nav>
+        <a href="#contact" class="nav-cta">Hubungi Saya</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="mobile-link">Tentang</a>
+        <a href="#skills" class="mobile-link">Keahlian</a>
+        <a href="#projects" class="mobile-link">Proyek</a>
+        <a href="#contact" class="mobile-link">Kontak</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================== HERO ==================== -->
+      <section class="hero" id="hero">
+        <div class="hero-bg-text" aria-hidden="true">PORTFOLIO</div>
+        <div class="hero-container">
+          <div class="hero-tag reveal">
+            <span class="dot"></span> Tersedia untuk proyek baru
+          </div>
+          <h1 class="hero-title reveal">
+            Halo, saya<br />
+            <em class="hero-name">Leo Misna Hermawan</em>
+          </h1>
+          <p class="hero-subtitle reveal">
+            Full-Stack Developer &amp; UI Designer yang membangun<br />
+            pengalaman digital yang bermakna dan elegan.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">Lihat Karya Saya</a>
+            <a href="#contact" class="btn btn-ghost">Mulai Percakapan →</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="stat">
+              <span class="stat-num">3+</span
+              ><span class="stat-label">Tahun Pengalaman</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">20+</span
+              ><span class="stat-label">Proyek Selesai</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">15+</span
+              ><span class="stat-label">Klien Puas</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <div class="scroll-line"></div>
+          <span>Scroll</span>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="section-label reveal">— Tentang Saya</div>
+          <div class="about-grid">
+            <div class="about-image-wrap reveal">
+              <div class="about-img-frame">
+                <!-- Ganti src dengan foto Anda -->
+                <img
+                  src="https://placehold.co/420x520/c8d5b9/4a5240?text=Foto+Anda"
+                  alt="Foto profil"
+                  class="about-img"
+                />
+                <div class="img-accent"></div>
+              </div>
+              <div class="about-card">
+                <div class="card-icon">✦</div>
+                <p class="card-text">
+                  Berbasis di<br /><strong>Semarang, Indonesia</strong>
+                </p>
+              </div>
+            </div>
+            <div class="about-content reveal">
+              <h2 class="section-title">
+                Membangun Solusi<br /><em>Digital yang Berarti</em>
+              </h2>
+              <p class="about-text">
+                Saya adalah seorang pengembang dengan passion dalam menciptakan
+                aplikasi web yang tidak hanya fungsional, tetapi juga memberikan
+                pengalaman pengguna yang menyenangkan. Saya percaya bahwa kode
+                yang baik dan desain yang indah bisa berjalan berdampingan.
+              </p>
+              <p class="about-text">
+                Dengan latar belakang di bidang teknologi informasi dan
+                pengalaman bekerja dengan berbagai tim, saya membawa pendekatan
+                yang terstruktur namun kreatif dalam setiap proyek yang saya
+                kerjakan.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <span class="hi-icon">◈</span>
+                  <span>Problem Solver yang Analitis</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="hi-icon">◈</span>
+                  <span>Passionate dalam Clean Code</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="hi-icon">◈</span>
+                  <span>Senang Belajar Teknologi Baru</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary">Mari Berkolaborasi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== EXPERIENCE TIMELINE ==================== -->
+      <section class="experience" id="experience">
+        <div class="container">
+          <div class="section-label reveal">— Pengalaman</div>
+          <h2 class="section-title center reveal">
+            Perjalanan<br /><em>Karier Saya</em>
+          </h2>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2023 — Sekarang</span>
+                <h3 class="timeline-role">Full-Stack Developer</h3>
+                <span class="timeline-company">PT. Nama Perusahaan</span>
+                <p class="timeline-desc">
+                  Mengembangkan dan memelihara aplikasi web skala enterprise
+                  menggunakan React dan Node.js. Memimpin tim kecil 3 developer
+                  dalam sprint agile.
+                </p>
+                <div class="timeline-tags">
+                  <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2022 — 2023</span>
+                <h3 class="timeline-role">Frontend Developer</h3>
+                <span class="timeline-company">Startup ABC</span>
+                <p class="timeline-desc">
+                  Membangun antarmuka pengguna yang responsif dan aksesibel
+                  untuk platform SaaS dengan lebih dari 5.000 pengguna aktif.
+                </p>
+                <div class="timeline-tags">
+                  <span>Vue.js</span><span>Tailwind</span><span>Figma</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2021 — 2022</span>
+                <h3 class="timeline-role">Junior Web Developer</h3>
+                <span class="timeline-company">Freelance</span>
+                <p class="timeline-desc">
+                  Membangun website dan landing page untuk berbagai klien UMKM
+                  dan bisnis lokal di Jawa Tengah.
+                </p>
+                <div class="timeline-tags">
+                  <span>HTML/CSS</span><span>JavaScript</span
+                  ><span>WordPress</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SKILLS ==================== -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-label reveal">— Keahlian</div>
+          <h2 class="section-title center reveal">
+            Teknologi yang<br /><em>Saya Kuasai</em>
+          </h2>
+          <div class="skills-grid">
+            <div class="skill-category reveal">
+              <div class="skill-cat-header">
+                <span class="skill-cat-icon">◐</span>
+                <h3>Frontend</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item" data-level="90">
+                  <span class="skill-name">HTML & CSS</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="90"></div>
+                  </div>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-item" data-level="85">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                  </div>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="skill-item" data-level="80">
+                  <span class="skill-name">React.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="80"></div>
+                  </div>
+                  <span class="skill-pct">80%</span>
+                </div>
+                <div class="skill-item" data-level="75">
+                  <span class="skill-name">Vue.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="75"></div>
+                  </div>
+                  <span class="skill-pct">75%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category reveal">
+              <div class="skill-cat-header">
+                <span class="skill-cat-icon">◑</span>
+                <h3>Backend</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="80"></div>
+                  </div>
+                  <span class="skill-pct">80%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">PHP / Laravel</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="75"></div>
+                  </div>
+                  <span class="skill-pct">75%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">MySQL / PostgreSQL</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="70"></div>
+                  </div>
+                  <span class="skill-pct">70%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">REST API</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                  </div>
+                  <span class="skill-pct">85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category reveal">
+              <div class="skill-cat-header">
+                <span class="skill-cat-icon">◒</span>
+                <h3>Tools & Lainnya</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Git & GitHub</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                  </div>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Figma</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="70"></div>
+                  </div>
+                  <span class="skill-pct">70%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Docker</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="60"></div>
+                  </div>
+                  <span class="skill-pct">60%</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Vercel / Netlify</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="90"></div>
+                  </div>
+                  <span class="skill-pct">90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PROJECTS ==================== -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-label reveal">— Proyek</div>
+          <h2 class="section-title center reveal">
+            Karya yang<br /><em>Pernah Saya Buat</em>
+          </h2>
+
+          <div class="project-filters reveal">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="web">Web App</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card reveal" data-category="web">
+              <div class="project-img-wrap">
+                <img
+                  src="https://placehold.co/600x380/c8d5b9/4a5240?text=Project+1"
+                  alt="Project 1"
+                  class="project-img"
+                />
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="Live Demo"
+                    >↗ Demo</a
+                  >
+                  <a href="#" class="project-link" aria-label="GitHub"
+                    >⌥ Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>React</span><span>Node.js</span><span>MongoDB</span>
+                </div>
+                <h3 class="project-title">Nama Proyek Pertama</h3>
+                <p class="project-desc">
+                  Deskripsi singkat proyek. Apa yang dikerjakan, masalah apa
+                  yang dipecahkan, dan dampaknya bagi pengguna.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+              <div class="project-img-wrap">
+                <img
+                  src="https://placehold.co/600x380/b9c8d5/40524a?text=Project+2"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="Live Demo"
+                    >↗ Demo</a
+                  >
+                  <a href="#" class="project-link" aria-label="GitHub"
+                    >⌥ Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>Vue.js</span><span>Laravel</span><span>MySQL</span>
+                </div>
+                <h3 class="project-title">Nama Proyek Kedua</h3>
+                <p class="project-desc">
+                  Deskripsi singkat proyek. Apa yang dikerjakan, masalah apa
+                  yang dipecahkan, dan dampaknya bagi pengguna.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-card reveal" data-category="design">
+              <div class="project-img-wrap">
+                <img
+                  src="https://placehold.co/600x380/d5c8b9/524a40?text=Project+3"
+                  alt="Project 3"
+                  class="project-img"
+                />
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="Live Demo"
+                    >↗ Demo</a
+                  >
+                  <a href="#" class="project-link" aria-label="GitHub"
+                    >⌥ Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>Figma</span><span>UI/UX</span>
+                </div>
+                <h3 class="project-title">Nama Proyek Ketiga</h3>
+                <p class="project-desc">
+                  Deskripsi singkat proyek. Apa yang dikerjakan, masalah apa
+                  yang dipecahkan, dan dampaknya bagi pengguna.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-card reveal" data-category="mobile">
+              <div class="project-img-wrap">
+                <img
+                  src="https://placehold.co/600x380/c8d5b9/4a5240?text=Project+4"
+                  alt="Project 4"
+                  class="project-img"
+                />
+                <div class="project-overlay">
+                  <a href="#" class="project-link" aria-label="Live Demo"
+                    >↗ Demo</a
+                  >
+                  <a href="#" class="project-link" aria-label="GitHub"
+                    >⌥ Code</a
+                  >
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span>React Native</span><span>Firebase</span>
+                </div>
+                <h3 class="project-title">Nama Proyek Keempat</h3>
+                <p class="project-desc">
+                  Deskripsi singkat proyek. Apa yang dikerjakan, masalah apa
+                  yang dipecahkan, dan dampaknya bagi pengguna.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-more reveal">
+            <a
+              href="https://github.com/username"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost"
+            >
+              Lihat Semua di GitHub →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="section-label reveal">— Kontak</div>
+          <div class="contact-grid">
+            <div class="contact-left reveal">
+              <h2 class="section-title">
+                Punya Proyek<br /><em>yang Menarik?</em>
+              </h2>
+              <p class="contact-text">
+                Saya selalu terbuka untuk diskusi proyek baru, peluang
+                kolaborasi, atau sekadar ngobrol tentang teknologi. Jangan ragu
+                untuk menghubungi saya!
+              </p>
+              <div class="contact-info-list">
+                <a href="mailto:email@anda.com" class="contact-info-item">
+                  <span class="ci-icon">✉</span>
+                  <span>email@anda.com</span>
+                </a>
+                <a
+                  href="https://linkedin.com/in/username"
+                  target="_blank"
+                  class="contact-info-item"
+                >
+                  <span class="ci-icon">in</span>
+                  <span>linkedin.com/in/username</span>
+                </a>
+                <a
+                  href="https://github.com/username"
+                  target="_blank"
+                  class="contact-info-item"
+                >
+                  <span class="ci-icon">⌥</span>
+                  <span>github.com/username</span>
+                </a>
+              </div>
+            </div>
+            <div class="contact-right reveal">
+              <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Nama lengkap Anda"
+                      required
+                    />
+                    <span class="form-error" id="nameError"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="email@contoh.com"
+                      required
+                    />
+                    <span class="form-error" id="emailError"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subjek</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Topik pesan Anda"
+                    required
+                  />
+                  <span class="form-error" id="subjectError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Ceritakan proyek atau ide Anda..."
+                    required
+                  ></textarea>
+                  <span class="form-error" id="messageError"></span>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-full"
+                  id="submitBtn"
+                >
+                  <span class="btn-text">Kirim Pesan</span>
+                  <span class="btn-icon">→</span>
+                </button>
+                <div class="form-success" id="formSuccess">
+                  ✓ Pesan berhasil dikirim! Saya akan menghubungi Anda segera.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="nav-logo"
+              ><span class="logo-bracket">[</span>YN<span class="logo-bracket"
+                >]</span
+              ></span
+            >
+            <p>
+              Membangun pengalaman digital<br />yang bermakna, satu baris kode.
+            </p>
+          </div>
+          <div class="footer-links-group">
+            <h4>Navigasi</h4>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+          </div>
+          <div class="footer-links-group">
+            <h4>Sosial</h4>
+            <a href="https://github.com/username" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/username" target="_blank"
+              >LinkedIn</a
+            >
+            <a href="https://instagram.com/username" target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="year"></span> Nama Anda. Dibuat dengan ♥ di
+            Semarang.
+          </p>
+          <button
+            class="back-to-top"
+            id="backToTop"
+            aria-label="Kembali ke atas"
+          >
+            ↑
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
